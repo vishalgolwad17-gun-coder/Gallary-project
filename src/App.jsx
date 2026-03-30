@@ -36,6 +36,8 @@ const App = () => {
 
     <div className='bg-black h-screen w-screen text-white overflow-auto'>
 
+      <h1 className='text-2xl flex justify-center align-center font-bold'>Photo Gallary</h1>
+
       <div className='flex flex-wrap gap-4 m-4 p-4 pb-24'>
         {printdata}
       </div>
